@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100%;
+}
+.dark_blue{
+    background-color: #000080;
+}
+.light_blue{
+    background-color: #6666b2;
+}
+.green{
+    background-color: #008000;
+}
+.red{
+    background-color: #FF0000;
+}
+.orange{
+    background-color: #FFA500;
+}
+@media screen and (min-width: 450px) {
+    .light_blue,
+    .green {
+        width: 50%;
+    
+
+    }
+}
+@media screen and (min-width: 899px) {
+    .dark_blue,
+    .light_blue {
+        width: 50%;
+        text-align: center;
+        font-size: 1.6em;  /* Font style for this resoluton only */
+        font-weight: bold;
+        color: white;
+    }
+    .green,
+    .red,
+    .orange {
+        width: 33.33333%;
+        text-align: center;
+        font-size: 1.6em;
+        font-weight: bold;
+        color: white;
+    }
+}
+@media screen and (min-width: 900px){
+		.container{
+			width: 900px;
+			margin: auto;
+	
+		
+		}
+}
+
+

@@ -1,0 +1,74 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100%;
+    text-align: center;
+
+
+}
+.blue{
+    background-color:blue; 
+
+}
+.yellow {
+     background-color: yellow;
+}
+.red{
+    background-color: red;
+
+}
+@media screen and (min-width: 450px) {
+    .blue {
+        width: 25%;
+        text-align: center;
+        color: white;
+        font-size: 1.4em;
+        text-decoration: underline;
+
+        
+    }
+    .yellow {
+        width: 75%;
+        text-align: center;
+        color: white;
+       text-decoration: underline;
+         font-size: 1.4em;
+        
+      
+    }
+    .red{
+    	width: 100%;
+    	order: 1;
+        text-align: center;
+        color: white;
+        text-decoration: underline; /* underline text this resolution only */
+         font-size: 1.4em;
+        
+    }
+}
+
+/* We apply Style to fonts here only */
+@media screen and (min-width: 750px) {
+    .blue,
+    .red {
+        width: 25%;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.6em;
+        text-decoration: none;/* Remove underline*/
+       
+    }
+    .yellow {
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.6em;
+        text-decoration: none;/* Remove underline*/
+        
+    }
+}
